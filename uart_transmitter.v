@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module uart_tx(
+module uart_transmitter(
     input wire clk,               //100 Mhz clock
     input wire start,             //start signal
     input wire [7:0] data_in,     //8 bit data
