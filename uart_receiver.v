@@ -18,7 +18,7 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-module uart_rx(
+module uart_receiver(
     input wire clk,               // 100MHz clock
     input wire rx,                // input pin where serial UART data arrives
     output reg [7:0] data_out,    // received 8-bit data
