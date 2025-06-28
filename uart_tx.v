@@ -87,3 +87,13 @@ begin
     if (led_counter > 0)       //LED blink logic
     begin
         led <= 1;
+        led_counter <= led_counter - 1;
+    end
+    else 
+    begin
+        led <= 0;
+    end
+end
+
+endmodule
+
